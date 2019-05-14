@@ -1,0 +1,8 @@
+<div class="box">
+  <h4>{{name}}</h4>
+  <button mat-button color="primary" (click)="connect()" *ngIf="!connected">Connect</button>
+  <button mat-button color="warn" (click)="disconnect()" *ngIf="connected">Disconnect</button>
+  <div>
+    <p *ngFor="let s of log">{{s}}</p>
+  </div>
+</div>

@@ -1,0 +1,14 @@
+app-subject-child {
+    margin: auto;
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+    display: flex
+}
+
+.card {
+    text-align: center;
+    margin-bottom: 40px;
+}
